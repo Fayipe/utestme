@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "tsc": "tsc",
-    "dev": "ts-node-dev --respawn --transpile-only ./app/app.ts",
+    "start": "ts-node-dev --respawn --transpile-only ./app/app.ts",
     "prod": "tsc && node ./build/app.js"
   },
   "repository": {
